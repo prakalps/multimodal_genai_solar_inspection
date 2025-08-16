@@ -1,0 +1,7 @@
+streamlit
+transformers>=4.26.0
+torch
+openai>=1.0.0
+langchain
+Pillow
+python-dotenv

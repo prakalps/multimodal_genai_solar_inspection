@@ -1,0 +1,29 @@
+image_name,inspection_report
+solar_panel1.JPG,"{
+  ""Issue"": ""Incomplete cleaning of solar panels"",
+  ""Component"": ""Solar panels"",
+  ""Severity"": ""Low"",
+  ""Recommendation"": ""Rewash the solar panels to remove streaks and soapy residue"",
+  ""Timeline"": ""Within the next week""
+}"
+solar_panel2.jpg,"{
+  ""Issue"": ""Broken window with two impact points and spider cracks"",
+  ""Component"": ""Building window"",
+  ""Severity"": ""High"",
+  ""Recommendation"": ""Immediate replacement of the damaged window to prevent further damage and maintain building insulation"",
+  ""Timeline"": ""As soon as possible""
+}"
+solar_panel3.jpg,"{
+  ""Issue"": ""No issues"",
+  ""Component"": ""Solar panels"",
+  ""Severity"": ""Low"",
+  ""Recommendation"": ""No immediate action required. Continue regular maintenance and monitoring."",
+  ""Timeline"": ""Ongoing""
+}"
+solar_Panel4.jpg,"{
+  ""Issue"": ""Heavy shattering with multiple cracks across the surface"",
+  ""Component"": ""Solar Panel"",
+  ""Severity"": ""High"",
+  ""Recommendation"": ""Immediate replacement of the damaged solar panel"",
+  ""Timeline"": ""As soon as possible""
+}"
