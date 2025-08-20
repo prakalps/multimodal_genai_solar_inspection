@@ -1,7 +1,31 @@
-streamlit
-transformers>=4.26.0
-torch
-openai>=1.0.0
-langchain
-Pillow
-python-dotenv
+# Core web app
+streamlit>=1.36.0
+
+# Arrays, data frames, plotting
+numpy>=1.26.0
+pandas>=2.2.0
+matplotlib>=3.7.0
+
+# Vision + Transformers
+torch           # choose the wheel for your OS/CPU/GPU if needed
+torchvision
+transformers>=4.40.0
+# Optional speedups (not required): accelerate, bitsandbytes
+
+# Image utils
+pillow>=10.0.0
+opencv-python>=4.9.0.80
+
+# OCR (uses either Tesseract binary or EasyOCR)
+pytesseract>=0.3.10
+easyocr>=1.7.1
+# NOTE: On Linux/Windows/macOS you must install the Tesseract binary separately if using pytesseract.
+
+# LLM & prompts
+openai>=1.30.0
+langchain>=0.2.0
+python-dotenv>=1.0.1
+
+# Validation & parsing
+jsonschema>=4.22.0
+rapidfuzz>=3.0.0  # for fuzzy filename matching in batch mode

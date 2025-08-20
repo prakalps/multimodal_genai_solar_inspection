@@ -20,6 +20,28 @@ The app integrates:
 7. Downloadable inspection reports in JSON format  
 8. User-friendly visualization of **image → notes → report**  
 
+# 🔹 Validation & Evaluation
+
+- JSON Schema Validation – ensures reports conform to expected schema:
+- - Issue, Component, Severity, Recommendation, Timeline
+- Heuristic Evaluation Metrics:
+- - Completeness of required fields
+- - Severity validity checks
+- - Keyword overlap between evidence and model output
+- - Consistency flags (e.g., crack → severity mismatch)
+
+# 🔹 🔍 Analytics (New in v1)
+
+- Severity Distribution – bar chart of Low/Medium/High across reports.
+- Overall Score Histogram – distribution of evaluation scores (0–100).
+- Keyword Overlap Heatmap – visualize textual alignment between inputs and generated reports.
+- Aggregate Dashboard – summary analytics from batch/video modes.
+
+# 🔹 ⚙️ Model Flexibility (New in v1)
+
+- LLM Selection: Choose GPT model (gpt-4 or gpt-3.5-turbo).
+- Caption Model Selection: Switch between HuggingFace captioning models (BLIP-base, BLIP2, GIT, etc.) in the sidebar.
+- Easy to extend – just add HuggingFace model names to the dropdown.
 ---
 
 ## 🛠️ Installation
